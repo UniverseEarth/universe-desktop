@@ -1,0 +1,5 @@
+.toolbar-spacer {
+    flex: 1 1 auto;
+}
+.mat-toolbar { background-color: black; color: white; }
+.mat-icon:hover { cursor: pointer; }

@@ -63,7 +63,7 @@ app.on('window-all-closed', function () {
 })
 
 app.on('activate', function () {
-    if (win === null) {
+    if (appWindow === null) {
         initWindow()
     }
 })

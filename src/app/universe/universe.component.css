@@ -1,0 +1,10 @@
+.mat-list-item { cursor: pointer; }
+.mat-list-item:hover { background-color: grey; }
+.mat-list-base .mat-list-item { color: white; }
+.indent-1 { margin-left: 16px; }
+.indent-2 { margin-left: 32px; }
+.indent-3 { margin-left: 48px; }
+.indent-4 { margin-left: 64px; }
+.indent-5 { margin-left: 80px; }
+
+#folder { background-color: rgba(0, 0, 0, 0.4); }

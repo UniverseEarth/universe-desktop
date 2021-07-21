@@ -1,0 +1,15 @@
+<div class="outerContainer">
+    <div fxLayout="row" fxLayoutGap="16px" class="container">
+        <div fxFlex="1 1 auto" id="list">
+            <mat-list>
+              <mat-list-item *ngFor="let folder of folders">
+                <img matListAvatar src={{folder.image}} alt="..." class="indent-{{folder.level}}">
+                <p matLine>{{folder.name}} </p>
+              </mat-list-item>
+            </mat-list>
+        </div>
+        <div fxFlex="11 1 auto" id="folder">
+            
+        </div>
+    </div>
+</div>
